@@ -1,6 +1,5 @@
 window.addEventListener("DOMContentLoaded", () => {
-  const slider__container = document.querySelector(".slider__container"),
-    slide = document.querySelectorAll(".slide"),
+  const slide = document.querySelectorAll(".slide"),
     slider__wrapper = document.querySelector(".slider__wrapper"),
     slider__inner = document.querySelector(".slider__inner"),
     slider__next = document.querySelector(".slider__next"),
@@ -17,10 +16,9 @@ window.addEventListener("DOMContentLoaded", () => {
   slider__inner.style.transition = "0.5s all";
   slider__wrapper.style.overflow = "hidden";
 
-
-  if(slide__length < 10){
-    total.innerHTML = `0${slide__length}`
-  }else {
+  if (slide__length < 10) {
+    total.innerHTML = `0${slide__length}`;
+  } else {
     total.innerHTML = slide__length;
   }
 
