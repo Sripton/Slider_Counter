@@ -2,7 +2,7 @@
   box-sizing: border-box;
 }
 .slider__container {
-  width: 650px;
+  width: 700px;
   margin-top: 50px;
   display: flex;
   flex-direction: column;
